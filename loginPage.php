@@ -102,7 +102,7 @@
                 </div>
                 
                 <div class="signup">
-                    <p>Novo por aqui? <a href="https://www.netflix.com/br/">Assine agora.</a></p>
+                    <p>Novo por aqui? <a href="criarconta.php">Registre-se agora.</a></p>
                     
                 </div>
                 <div class="more">
