@@ -26,11 +26,10 @@ if ($_POST) {
           
       } else {
           //Login inválido 
-          header('location:../loginPage.php?cod=171');
+          header('location:../login.php?cod=171');
       }
   } else {
 
       header('location:../index.php');
   }
-
   ?>

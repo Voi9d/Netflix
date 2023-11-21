@@ -32,6 +32,12 @@
                             <div class="info">
                                 
                                     <div class="mb-1 mt-3">
+                                    <?php
+		                                if(isset($_SESSION['msg'])){
+			                            echo $_SESSION['msg'];
+			                            unset($_SESSION['msg']);
+		                            }
+		                            ?>
                                     <?php    
                                     if(isset($_COOKIE['email'])){
                                        echo('<input type="email" class="email" name="email" id="email"

@@ -3,5 +3,5 @@ if($_REQUEST){
     @session_start();
     @session_destroy();
     @session_abort();
-    header('location:../loginPage.php?logout');
+    header('location:../login.php?logout');
 }

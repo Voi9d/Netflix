@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +16,9 @@
    
 <div class="container">
 <div class="logo">
-    <a href="loginPage.php"><img src="https://i.ibb.co/r5krrdz/logo.png"></a>
+    <a href="login.php"><img src="https://i.ibb.co/r5krrdz/logo.png"></a>
 </div>
-<div class="item-container">
+<form method="POST" action="processoRegistro.php">
 <h1>Criar conta</h1>
 
 
@@ -23,8 +26,8 @@
 
 <input class="input" type="password" name="senha-registrada" placeholder="Insira sua senha" id="">
 
-<input class="button" type="submit" value="Criar conta">
-</div>
+<input class="button" type="submit" name="criarConta" value="Criar conta">
+</form>
 
 </div>
 
